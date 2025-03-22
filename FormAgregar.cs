@@ -178,7 +178,7 @@ namespace Electrocost3
                     AparatosElectricos nuevoAparato = _List[Index];
                     nuevoAparato.AgregarRegistroUso(Fecha, HorasUso, Watts);
 
-                    MessageBox.Show("Nuevo Registro Añadido al Objeto");
+                    MessageBox.Show("Nuevo Registro Actualizado");
                 }
             }
             catch (Exception)
